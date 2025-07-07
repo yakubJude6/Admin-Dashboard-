@@ -1,0 +1,7 @@
+main grid is 20/80% in columns (no rows for sidebar and main just height)
+main is 20/80% in rows (for header and content)
+content columns 70% 30% (projects/ann-trend)
+cards columns 50% 50%
+ann-trend rows: 50% 50%;
+
+
