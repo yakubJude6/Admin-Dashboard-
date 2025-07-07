@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* grid parent and basic styling for sidebar/main */
+
+
+.sidebar, .main {
+    height: 100%;
+}
+
+
+  body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+  }
+
+
+.sidebar {
+    background-color: #1992d4;
+    color: white;
+
+}
+
+
+/* sidebar */
+.sidebar img {
+width: 35px;
+
+}
+
+svg {
+    width: 35px;
+}
+
+
+.logo-sidebar, .sidbear-cont {
+display: flex;
+justify-content: start;
+align-items: center;
+
+
+
+}
+
+
+.logo-sidebar {
+    margin: 0 40px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    
+}
+
+.logo-sidebar p {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sidbear-cont {
+    margin: 20px 40px;
+}
+
+.sidbear-cont p {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.sidebar-row-bottom {
+    margin-top: 70px;
+}
+
+/* main */
+.main {
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+
+/* header/nav/welcome */
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+
+nav img {
+    width: 40px;
+}
+
+.nav-one, .nav-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav-two {
+    margin-right: 60px;
+}
+
+
+.nav-one input {
+    width: 500px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.welcome-one {
+    display: flex;
+    gap: 20px;
+}
+
+.welcome-two {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.welcome img{
+    width: 50px;
+}
+
+.btn {
+    background-color: #2E003E;
+    color: #e8d2ff;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+.welcome-one p {
+font-weight: bold;
+}
+
+/* content */
+.content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #e2e8f0;
+
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.card {
+    background-color: white;
+    border-left: 10px solid #d09c24;
+    margin: 20px;
+    border-radius: 10px;
+    width: 75%;
+    height: 95%;
+
+}
+
+
+
+
+.card p {
+    font-size: 15px;
+    color: rgb(66, 62, 62);
+}
+
+.cards {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; */
+    margin: 20px;
+
+}
+
+.card p, .card h3 {
+    margin-left: 20px;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.card div svg {
+    width: 20px;
+ 
+}
+
+
+.projects h4 {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
+
+
+/* ann trend */
+
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+ 
+
+}
+
+.ann-card {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    width: 75%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+
+
+
+    
+}
+
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(63, 62, 62, 0.31);
+    color: white;
+    margin: 5px 0;
+  
+}
+
+.ann-text  {
+margin: 10px 0;
+}
+
+.ann-text:nth-child(1) {
+    margin: 20px 0;
+}
+
+.card h3 {
+    color: black;
+}
+
+.ann-text p {
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(63, 62, 62);
+}
+
+.ann h1 {
+    margin-left: 20px;
+
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.trend img {
+    width: 40px;
+}
+
+.ann {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.trend {
+    margin-top: 50px;
+}
+
+.trend-div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 25px;
+
+}
+
+
+.trend-card {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    width: 71%;
+    height: 60%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+gap: 10px;
+padding: 5px;
+
+
+
+
+}
+
+html {
+    height: 100vh;
+}
+
+.trend h1 {
+    margin-left: 20px;
+margin-top: 40px;
+    font-size: 23px;
+
+}
+
+.ann {
+ margin-left: -20px;
+ margin-bottom: 10px;
+}
+
+
+
+
+.trend {
+    margin-top: 50px;
+
+
+}
+
+
+.content {
+ height: 100%;   
+
+ 
+    padding: 50px;
+
+
+  }
+  
+.ann-trend {
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.projects {
+    margin-top: -50px;
+}
+
+.ann-card  {
+    padding-left: 40px;
+    padding-right: 20px;
+ 
+ }
+
+ .trend-card {
+    margin-top: -0px;
+    margin-top: 14px;
+ }
+
+
+
+
+
+
+/* styling */
+.sidebar {
+    background-color:  	 #beef00;
+    color: black;
+  
+}
+
+header {
+    background-color: 	#0d0116;
+    color: 	#aaffaa;
+}
+
+.content {
+    background-color: 		#0a0f0a;
+    color: 		#b9fbc0;
+}
+
+.logo-sidebar img {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-left: -10px;
+}
+
+.logo-sidebar p {
+    
+}
+
+
+header nav input {
+    background-color: white;
+}
+
+
+.ann-text h4 {
+    color: black;
+}
+
+.trend-text p {
+    color: black;
+}
